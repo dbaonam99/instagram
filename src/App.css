@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.banner {
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones@2x.png/9364675fb26a.png);
+  width: 454px;
+  height: 618px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.login-box {
+  border: 1px #ddd solid;
+  height: 85%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+.login-box-title p{
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.login-box-input form {
+  display: flex;
+  flex-direction: column;
+}
